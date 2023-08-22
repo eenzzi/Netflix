@@ -1,0 +1,46 @@
+.nav__logo{
+    width: 120px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.nav__avatar{
+    width: 30px;
+    object-fit: contain;
+}
+
+.header__content{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    align-items: center;
+}
+
+.header__menu{
+    color: white;
+    display: flex;
+    white-space: nowrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    
+}
+
+.home{
+    padding-right: 30px;
+}
+
+.series{
+    padding-right: 30px;
+}
+
+.header__buttons{   
+    padding-right: 20px;
+}
